@@ -1,7 +1,10 @@
 async function getImagesGallery() {
-  const data = await fetch(`http://localhost:3000/api/galleryimage`, {
-    cache: "no-store",
-  });
+  const data = await fetch(
+    "https://free-course-three.vercel.app/api/galleryimage",
+    {
+      cache: "no-store",
+    }
+  );
   return data.json();
 }
 
@@ -45,7 +48,7 @@ export default async function CouseGallery() {
             <img
               src={galleryfastpath}
               alt=""
-              srcset=""
+              srcSet=""
               className="rounded-xl transition ease-in-out delay-150 duration-300 transform hover:scale-105"
             />
           </div>
@@ -55,7 +58,7 @@ export default async function CouseGallery() {
                 <img
                   src={data}
                   alt=""
-                  srcset=""
+                  srcSet=""
                   className="rounded-xl transition ease-in-out delay-150 duration-300 transform hover:scale-105"
                 />
               </div>
@@ -72,7 +75,7 @@ export default async function CouseGallery() {
                 <img
                   src={data}
                   alt=""
-                  srcset=""
+                  srcSet=""
                   className="rounded-xl transition ease-in-out delay-150 duration-300 transform hover:scale-105"
                 />
               </div>
@@ -82,7 +85,7 @@ export default async function CouseGallery() {
             <img
               src={secendgalleryfastpath}
               alt=""
-              srcset=""
+              srcSet=""
               className="rounded-xl transition ease-in-out delay-150 duration-300 transform hover:scale-105"
             />
           </div>
