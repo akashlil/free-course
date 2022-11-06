@@ -127,6 +127,7 @@ export default function page() {
       >
         <CouseGallery />
       </Suspense> */}
+      <CouseGallery />
       <GetFromCourse />
       <NeedCourse />
       <CourseInstructor />
