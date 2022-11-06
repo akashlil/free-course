@@ -2,10 +2,10 @@ import Link from "next/link";
 
 export default function Navbar() {
   let links = [
-    { name: "Home", page: "/", active: "active" },
-    { name: "Blog", page: "/blog" },
-    { name: "About", page: "/about" },
-    { name: "Contact", page: "/contact" },
+    { name: "Home", page: "home", active: "active", id: "home" },
+    { name: "Features", page: "features", id: "features" },
+    { name: "Project", page: "project", id: "project" },
+    { name: "What to Know", page: "know", id: "know" },
     { name: "Login", page: "/login", active: "login" },
   ];
 
@@ -27,7 +27,7 @@ export default function Navbar() {
                     : " "
                 }`}
                 key={link.name}
-                href={link.page}
+                href={`/#${link.page}`}
               >
                 {link.name} {"  "}
               </Link>
