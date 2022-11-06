@@ -16,8 +16,8 @@ export default function GetFromCourse() {
             alt=""
             width={"100%"}
             height={"100%"}
-            srcset="https://designdrastic.com/images/tutorials/shape-animation-morphing-anime-js/shape2.png"
-            className="absolute contrast-200  top-0 bg-no-repeat mix-blend-overlay bg-center"
+            srcSet="https://designdrastic.com/images/tutorials/shape-animation-morphing-anime-js/shape2.png"
+            className="absolute  top-0 bg-no-repeat mix-blend-overlay bg-center"
           />
           <div className="absolute animate-bounce bottom-36 left-5 w-10 h-10 bg-sky-600 rounded-full border-0"></div>
           <div className="absolute animate-ping bottom-52 md:bottom-48 right-36 w-8 h-8 bg-sky-600 rounded-full border-0"></div>
@@ -70,7 +70,7 @@ export default function GetFromCourse() {
             alt=""
             width={"100%"}
             height={"100%"}
-            srcset="https://designdrastic.com/images/tutorials/shape-animation-morphing-anime-js/shape2.png"
+            srcSet="https://designdrastic.com/images/tutorials/shape-animation-morphing-anime-js/shape2.png"
             className="absolute top-0 bg-no-repeat mix-blend-overlay bg-center"
           />
           <div className="absolute animate-bounce bottom-36 left-5 w-10 h-10 bg-sky-600 rounded-full border-0"></div>

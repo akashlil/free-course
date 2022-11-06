@@ -30,7 +30,7 @@ export default function page() {
               <img
                 src="https://i.ibb.co/P6P2YbS/Untitled-design-1-removebg-preview.png"
                 alt=""
-                srcset=""
+                srcSet=""
                 className="contrast-125"
               />
             </div>
@@ -106,7 +106,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      <Suspense
+      {/* <Suspense
         fallback={
           <div class="border border-blue-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
             <div class="animate-pulse flex space-x-4">
@@ -126,7 +126,7 @@ export default function page() {
         }
       >
         <CouseGallery />
-      </Suspense>
+      </Suspense> */}
       <GetFromCourse />
       <NeedCourse />
       <CourseInstructor />

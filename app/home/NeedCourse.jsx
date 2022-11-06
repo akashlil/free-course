@@ -6,7 +6,7 @@ export default function NeedCourse() {
           <img
             src="https://learnwithsumit.com/_next/static/media/Prerequisite.b0ff46bc.svg"
             alt=""
-            srcset=""
+            srcSet=""
           />
           <p className=" font-bold text-3xl">
             <span className=" text-purple-600">
@@ -28,7 +28,7 @@ export default function NeedCourse() {
                 <img
                   src="https://learnwithsumit.com/_next/static/media/html5.413279f8.svg"
                   alt=""
-                  srcset=""
+                  srcSet=""
                   className="bg-cover 
             rounded-full  bg-orange-500 w-10 p-2"
                 />
@@ -44,7 +44,7 @@ export default function NeedCourse() {
                 <img
                   src="https://learnwithsumit.com/_next/static/media/react.eb7fa0ae.svg"
                   alt=""
-                  srcset=""
+                  srcSet=""
                   className="bg-cover 
             rounded-full bg-sky-700 w-10 p-2"
                 />
@@ -60,7 +60,7 @@ export default function NeedCourse() {
                 <img
                   src="https://learnwithsumit.com/_next/static/media/github.2fd17350.svg"
                   alt=""
-                  srcset=""
+                  srcSet=""
                   className="bg-cover 
             rounded-full bg-black w-10 p-2"
                 />
@@ -76,7 +76,7 @@ export default function NeedCourse() {
                 <img
                   src="https://learnwithsumit.com/_next/static/media/html5.413279f8.svg"
                   alt=""
-                  srcset=""
+                  srcSet=""
                   className="bg-cover 
             rounded-full  bg-orange-500 w-10 p-2"
                 />
@@ -92,7 +92,7 @@ export default function NeedCourse() {
                 <img
                   src="https://learnwithsumit.com/_next/static/media/html5.413279f8.svg"
                   alt=""
-                  srcset=""
+                  srcSet=""
                   className="bg-cover 
             rounded-full  bg-orange-500 w-10 p-2"
                 />
@@ -108,7 +108,7 @@ export default function NeedCourse() {
                 <img
                   src="https://learnwithsumit.com/_next/static/media/html5.413279f8.svg"
                   alt=""
-                  srcset=""
+                  srcSet=""
                   className="bg-cover 
             rounded-full  bg-orange-500 w-10 p-2"
                 />

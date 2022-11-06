@@ -5,7 +5,7 @@ async function getImagesGallery() {
   return data.json();
 }
 
-export default async function CouseGallery(id) {
+export default async function CouseGallery() {
   const { fristsectiongallery, secendsectiongallery } =
     await getImagesGallery();
   const { gallerysecendpath, galleryfastpath } = fristsectiongallery;

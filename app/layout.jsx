@@ -6,7 +6,6 @@ export default function RootLayout({ children }) {
     <html>
       <title>free-course</title>
       <head>
-        {" "}
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </head>
       <body>
