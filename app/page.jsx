@@ -106,7 +106,7 @@ export default function page() {
           </div>
         </div>
       </section>
-      {/* <Suspense
+      <Suspense
         fallback={
           <div class="border border-blue-300 shadow rounded-md p-4 max-w-sm w-full mx-auto">
             <div class="animate-pulse flex space-x-4">
@@ -126,9 +126,7 @@ export default function page() {
         }
       >
         <CouseGallery />
-      </Suspense> */}
-      <CouseGallery />
-      <GetFromCourse />
+      </Suspense>
       <NeedCourse />
       <CourseInstructor />
     </div>
