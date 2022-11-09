@@ -17,7 +17,7 @@ export default async function CouseGallery() {
 
   return (
     <div className="container z-20">
-      <div className="my-14 flex flex-col items-center ">
+      <div className="my-14 flex flex-col items-center">
         <div
           data-aos="fade-up"
           data-aos-anchor-placement="bottom-bottom"
@@ -66,10 +66,10 @@ export default async function CouseGallery() {
           </div>
         </div>
         <div
-          className="flex md:flex-row flex-col gap-5 my-3"
-          data-aos="fade-left"
+          className="grid grid-cols-1 grid-rows-2  md:grid-rows-1 md:grid-cols-2 gap-5 mt-5 "
+          data-aos="fade-up"
         >
-          <div className="grid grid-rows-2 grid-cols-2 gap-5 basis-1/2">
+          <div className="grid grid-rows-2 grid-cols-2 gap-5">
             {secendgallerysecendpath.map((data) => (
               <div>
                 <img
@@ -81,7 +81,7 @@ export default async function CouseGallery() {
               </div>
             ))}
           </div>
-          <div className="overflow-hidden  basis-1/2">
+          <div className="overflow-hidden">
             <img
               src={secendgalleryfastpath}
               alt=""

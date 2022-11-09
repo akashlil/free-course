@@ -8,7 +8,7 @@ export default function page() {
   return (
     <div>
       <div className="backGroundGrid border-b relative">
-        <div className="container">
+        <div className="container ">
           <div className="flex justify-center h-full flex-col lg:flex-row gap-10 lg:gap-28 items-center">
             <div className="text-center lg:text-start basis-1/2">
               <p className="primary-highlighter text-lg font-semibold  pt-4">
